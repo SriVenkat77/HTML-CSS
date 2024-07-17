@@ -1,0 +1,155 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>CSS DAY 3</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH" crossorigin="anonymous">
+<style>
+    .self{
+        background-color: brown !important;
+    }
+    
+body {
+ 
+  background-repeat: no-repeat !important;
+ background-attachment: fixed !important;
+  background-size: cover !important;
+}
+</style>
+</head>
+<body
+background="./assets/BG-IMAGE.avif">
+
+    <!-- <button class="btn btn-primary self">click me</button>
+    <div class="container-sm" style="background-color: blueviolet;" >
+        Lorem ipsum dolor sit amet consectetur adipisicing elit. Modi corrupti adipisci quod molestiae. Aperiam nam, aliquid officiis quas laudantium facilis impedit fuga doloribus veritatis esse deleniti eius alias, harum reiciendis? Numquam optio cumque culpa, placeat debitis eum minus nesciunt veritatis quidem odio neque, quis quisquam. Doloribus dicta alias totam deleniti vero iste non eveniet in aliquid ad. Ratione dolorum impedit natus iusto tempore saepe rerum fugit quo possimus inventore temporibus eos perferendis ipsum beatae, modi nesciunt fugiat quibusdam dolore tenetur! Voluptate laborum sunt quas distinctio fuga accusantium repudiandae nisi, dignissimos ea magni necessitatibus velit eveniet unde consequatur omnis dolorum nesciunt!
+    </div>
+    <div class="container-fluid" style="background-color: rgb(149, 122, 174);" >
+        Lorem ipsum dolor sit amet consectetur adipisicing elit. Modi corrupti adipisci quod molestiae. Aperiam nam, aliquid officiis quas laudantium facilis impedit fuga doloribus veritatis esse deleniti eius alias, harum reiciendis? Numquam optio cumque culpa, placeat debitis eum minus nesciunt veritatis quidem odio neque, quis quisquam. Doloribus dicta alias totam deleniti vero iste non eveniet in aliquid ad. Ratione dolorum impedit natus iusto tempore saepe rerum fugit quo possimus inventore temporibus eos perferendis ipsum beatae, modi nesciunt fugiat quibusdam dolore tenetur! Voluptate laborum sunt quas distinctio fuga accusantium repudiandae nisi, dignissimos ea magni necessitatibus velit eveniet unde consequatur omnis dolorum nesciunt!
+    </div>
+    <div class="container-fluid px-4 text-center">
+        <div class="row bg-secondary">
+            <div class="col bg-info border p-3">1</div>
+            <div class="col bg-info border p-3">2</div>
+            <div class="col bg-info border p-3">3</div>
+            <div class="col bg-info border p-3">4</div>
+            <div class="col bg-info border p-3">5</div>
+            <div class="col bg-info border p-3">6</div>
+            <div class="col bg-info border p-3">7</div>
+            <div class="col bg-info border p-3">8</div>
+        </div>
+        <div class="row bg-secondary justify-content-between gy-5">
+            <div class="col col-lg-6 bg-success border ">1</div>
+            <div class="col col-lg-6 bg-success border ">2</div>
+            <div class="col col-lg-6 bg-success border ">3</div>
+            <div class="col col-lg-6 bg-success border ">4</div>
+        </div>
+    </div> -->
+  <div class="container-fluid">
+    <nav class="navbar navbar-expand-lg bg-body-tertiary navbar bg-primary" data-bs-theme="dark">
+        <div class="container-fluid">
+          <a class="navbar-brand" href="./index.html"> <img src="./assets/logo.jfif" alt=""width="30" height="24">Edu.</a>
+          <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+          </button>
+          <div class="collapse navbar-collapse" id="navbarSupportedContent">
+            <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+              <li class="nav-item">
+                <a class="nav-link active" aria-current="page" href="./index.html">Home</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="#">About</a>
+              </li>
+              <li class="nav-item dropdown">
+                <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                  Courses
+                </a>
+                <ul class="dropdown-menu">
+                  <li><a class="dropdown-item" href="#">    Artificial Intelligence</a></li>
+                  <li><a class="dropdown-item" href="#">JAVA Full Stock</a></li>
+                  <li><hr class="dropdown-divider"></li>
+                  <li><a class="dropdown-item" href="#">MERN/MEAN</a></li>
+                </ul>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link " aria-disabled="true">Settings</a>
+              </li>
+            </ul>
+            <form class="d-flex" role="search">
+              <input class="form-control me-2" type="search" placeholder="Search" aria-label="Search">
+              <button class="btn btn-outline-success" type="submit">Search</button>
+            </form>
+          </div>
+        </div>
+      </nav>
+      <div id="carouselExampleAutoplaying" class="carousel slide" data-bs-ride="carousel">
+        <div class="carousel-inner">
+          <div class="carousel-item active">
+            <img src="./assets/AI-LOGO.jfif" class="d-block w-100" height="500px">
+          </div>
+          <div class="carousel-item">
+            <img src="/assets/JS-LOGO.jfif" class="d-block w-100" height="500px">
+          </div>
+          <div class="carousel-item">
+            <img src="./assets/MERN-LOGO.png" class="d-block w-100" height="500px">
+          </div>
+        </div>
+        <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleAutoplaying" data-bs-slide="prev">
+          <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+          <span class="visually-hidden">Previous</span>
+        </button>
+        <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleAutoplaying" data-bs-slide="next">
+          <span class="carousel-control-next-icon" aria-hidden="true"></span>
+          <span class="visually-hidden">Next</span>
+        </button>
+      </div>
+      <ul class="nav nav-underline justify-content-center">
+        <li class="nav-item">
+          <a class="nav-link active" aria-current="page" href="./index.html">Artificial Intelligence</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" aria-current="page" href="./index.html" style="color: rgb(5, 5, 49);">JAVA Full Stock</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link"  aria-current="page" href="./index.html" style="color: rgb(5, 5, 49);">MERN/MEAN</a>
+        </li>
+    </ul>
+    <DIV class="container">
+        <div class="row justify-content-between px-2" >
+            <div class="col-3 p-2">
+      <div class="card " style="width: 18rem ;"  >
+        <img src="./assets/AI-1.jfif" class="card-img-top " alt="...">
+        <div class="card-body">
+          <h5 class="card-title">Card title</h5>
+          <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+          <a href="#" class="btn btn-primary">Go somewhere</a>
+        </div>
+      </div>
+    </div> <div class="col-3 p-2">
+      <div class="card" style="width: 18rem; "  >
+        <img src="./assets/AI-2.jfif" class="card-img-top " height="170px">
+        <div class="card-body">
+          <h5 class="card-title">Card title</h5>
+          <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+          <a href="#" class="btn btn-primary">Go somewhere</a>
+        </div>
+    </div>
+      </div> <div class="col-3 p-2">
+      <div class="card " style="width: 18rem; "  >
+        <img src="./assets/AI-3.jfif" class="card-img-top  " height="170px">
+        <div class="card-body">
+          <h5 class="card-title">Card title</h5>
+          <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+          <a href="#" class="btn btn-primary">Go somewhere</a>
+        </div>
+    </div>
+      </div>
+    </div>
+    </DIV>
+  </div>
+
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz" crossorigin="anonymous"></script>
+
+</body>
+</html>
